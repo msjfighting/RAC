@@ -6,4 +6,6 @@
 //  Copyright © 2019 zlhj. All rights reserved.
 //
 
-#import "ReactiveObjC.h"
+
+
+#define Window [[UIApplication sharedApplication].delegate window]

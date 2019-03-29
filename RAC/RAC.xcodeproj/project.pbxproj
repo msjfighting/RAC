@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AB29B65E65C9720386FC9175 /* Pods_RAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772E0379DA73CABDBB19D09 /* Pods_RAC.framework */; };
+		E021C128224A2D65001955CA /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E021C127224A2D65001955CA /* RedView.m */; };
+		E021C12E224A3926001955CA /* FlagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E021C12D224A3926001955CA /* FlagModel.m */; };
 		E04342562244EA890028BBFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E04342552244EA890028BBFF /* AppDelegate.m */; };
 		E04342592244EA890028BBFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04342582244EA890028BBFF /* ViewController.m */; };
 		E043425C2244EA8A0028BBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E043425A2244EA8A0028BBFF /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 		E043426E2244EA940028BBFF /* RACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E043426D2244EA940028BBFF /* RACTests.m */; };
 		E04342792244EA940028BBFF /* RACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E04342782244EA940028BBFF /* RACUITests.m */; };
 		E04342872244EF840028BBFF /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04342862244EF840028BBFF /* ReactiveObjC.framework */; };
+		E06444B5224C7C84004E3732 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06444B4224C7C84004E3732 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		4A2EBD75B6B58B6F2F66B12F /* Pods-RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC/Pods-RAC.debug.xcconfig"; sourceTree = "<group>"; };
 		5772E0379DA73CABDBB19D09 /* Pods_RAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6939B598D4772E48C62057CD /* Pods-RAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC/Pods-RAC.release.xcconfig"; sourceTree = "<group>"; };
+		E021C126224A2D65001955CA /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		E021C127224A2D65001955CA /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		E021C12C224A3926001955CA /* FlagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagModel.h; sourceTree = "<group>"; };
+		E021C12D224A3926001955CA /* FlagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagModel.m; sourceTree = "<group>"; };
 		E04342512244EA890028BBFF /* RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04342542244EA890028BBFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E04342552244EA890028BBFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +65,8 @@
 		E043427A2244EA940028BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E04342862244EF840028BBFF /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04342882244F0870028BBFF /* Globe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globe.h; sourceTree = "<group>"; };
+		E06444B3224C7C84004E3732 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		E06444B4224C7C84004E3732 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +134,12 @@
 				E04342552244EA890028BBFF /* AppDelegate.m */,
 				E04342572244EA890028BBFF /* ViewController.h */,
 				E04342582244EA890028BBFF /* ViewController.m */,
+				E06444B3224C7C84004E3732 /* ModalViewController.h */,
+				E06444B4224C7C84004E3732 /* ModalViewController.m */,
+				E021C126224A2D65001955CA /* RedView.h */,
+				E021C127224A2D65001955CA /* RedView.m */,
+				E021C12C224A3926001955CA /* FlagModel.h */,
+				E021C12D224A3926001955CA /* FlagModel.m */,
 				E04342882244F0870028BBFF /* Globe.h */,
 				E043425A2244EA8A0028BBFF /* Main.storyboard */,
 				E043425D2244EA930028BBFF /* Assets.xcassets */,
@@ -349,8 +364,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E021C12E224A3926001955CA /* FlagModel.m in Sources */,
 				E04342592244EA890028BBFF /* ViewController.m in Sources */,
+				E06444B5224C7C84004E3732 /* ModalViewController.m in Sources */,
 				E04342642244EA930028BBFF /* main.m in Sources */,
+				E021C128224A2D65001955CA /* RedView.m in Sources */,
 				E04342562244EA890028BBFF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

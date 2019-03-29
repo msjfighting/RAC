@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  MVVM
+//
+//  Created by zlhj on 2019/3/29.
+//  Copyright © 2019 zlhj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Globe.h"
+
+
+#import "ReactiveObjC.h"
+#import "YJProgressHUD.h"
+#import "AFNetworking.h"
+
+
+
+
+
+#endif
