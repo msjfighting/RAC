@@ -40,11 +40,11 @@
         
     }];
     
-    RequestViewModel * vm = [[RequestViewModel alloc] init];
-    // 处理请求返回的结果
-    [[vm.loginComm execute:@"111"] subscribeNext:^(id  _Nullable x) {
-        NSLog(@"%@",x);
-    }];
+//    RequestViewModel * vm = [[RequestViewModel alloc] init];
+//    // 处理请求返回的结果
+//    [[vm.loginComm execute:@"111"] subscribeNext:^(id  _Nullable x) {
+//        NSLog(@"%@",x);
+//    }];
     
 }
 

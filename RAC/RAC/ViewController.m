@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "Globe.h"
-#import <ReactiveObjC/RACReturnSignal.h>
+#import <ReactiveObjC/ReactiveObjC.h>
 #import "RedView.h"
 #import "FlagModel.h"
 @interface ViewController ()
